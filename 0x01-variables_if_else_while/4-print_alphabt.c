@@ -14,6 +14,7 @@ if (alpha == 'q' || alpha == 'e')
 continue;
 }
 putchar(alpha);
+putchar('\n');
 }
 return (0);
 }
