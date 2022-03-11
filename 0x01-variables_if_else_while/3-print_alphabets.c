@@ -18,5 +18,6 @@ putchar(Alp);
 }
 }
 }
+putchar('\n');
 return (0);
 }
