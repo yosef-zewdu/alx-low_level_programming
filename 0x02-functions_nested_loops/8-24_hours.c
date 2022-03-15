@@ -10,7 +10,7 @@ void jack_bauer(void)
 
 	for (l = 0; l < 3; l++)
 	{
-		for (k = 0; k < 4; k++)
+		for (k = 0; k < 9; k++)
 		{
 			for (i = 0; i < 6; i++)
 			{
@@ -24,6 +24,8 @@ void jack_bauer(void)
 					_putchar('\n');
 				}
 			}
+			if (l == 2 && k == 3)
+				break;
 		}
 	}
 }
