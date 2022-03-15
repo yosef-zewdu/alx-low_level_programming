@@ -1,4 +1,10 @@
 #include "main.h"
+
+/**
+ * print_alphabet - print alphabets what
+ *
+ * Return: no return value
+ */
 void print_alphabet(void)
 {
 	char alpha;
