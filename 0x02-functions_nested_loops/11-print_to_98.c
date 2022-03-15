@@ -24,12 +24,12 @@ void print_to_98(int n)
 	else if (n >= 98)
 	{
 
-		for (k = 98; k <= n; k++)
+		for (k = n; k >= 98; k--)
 		{
-			if (k != n)
+			if (k != 98)
 				printf("%d, ", k);
 
-			else if (k == n)
+			else if (k == 98)
 				printf("%d\n", k);
 		}
 	}
