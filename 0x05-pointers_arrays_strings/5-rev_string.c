@@ -12,6 +12,7 @@ void rev_string(char *s)
 	int x = 0;
 	int y = 0;
 	char recibe;
+
 	if (s[0] == '\0')
 	{
 		s = "\0";
